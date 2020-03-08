@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/perguntaQuestao1"
+        android:layout_width="296dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/perguntaQuestao1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuestao1"
+        android:layout_width="287dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perguntaQuestao1">
+
+        <RadioButton
+            android:id="@+id/radioButtonOpcao1Questao1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="@string/opcao1Questao1" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOpcao2Questao1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="@string/opcao2Questao1" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOpcao3Questao1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="@string/opcao3Questao1" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOpcao4Questao1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="@string/opcao4Questao1" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonProximoQuestao1"
+        android:layout_width="178dp"
+        android:layout_height="63dp"
+        android:onClick="proxima"
+        android:text="@string/botaoProximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupQuestao1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

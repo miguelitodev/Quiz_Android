@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <!--    GERAL-->
+    <string name="botaoProximo">PRÓXIMA</string>
+    <string name="botaoVoltar">VOLTAR</string>
+
+    <!--    ACTIVITY MAIN-->
+    <string name="homeTitulo">Quiz</string>
+    <string name="homeBotaoComecar">COMEÇAR</string>
+    <string name="homeBotaoInstrucoes">INSTRUÇÕES</string>
+    <string name="homeDesenvolvedor">Miguel Riquelme</string>
+
+    <!--    PRIMEIRA QUESTÃO-->
+    <string name="perguntaQuestao1">Qual ano ocorreu o atentado do 11 de Setembro?</string>
+    <string name="opcao1Questao1">2000</string>
+    <string name="opcao2Questao1">1999</string>
+    <string name="opcao3Questao1">2002</string>
+    <string name="opcao4Questao1">2001</string>
+
+    <!--    SEGUNDA QUESTÃO-->
+    <string name="perguntaQuestao2">Quando ocorreu a Primeira Guerra Mundial?</string>
+    <string name="opcao1Questao2">1917</string>
+    <string name="opcao2Questao2">1915</string>
+    <string name="opcao3Questao2">1914</string>
+    <string name="opcao4Questao2">1913</string>
+
+    <!--    TERCEIRA QUESTÃO-->
+    <string name="perguntaQuestao3">Quando a Guerra Fria acabou?</string>
+    <string name="opcao1Questao3">1990</string>
+    <string name="opcao2Questao3">1991</string>
+    <string name="opcao3Questao3">1994</string>
+    <string name="opcao4Questao3">1997</string>
+
+    <!--    QUARTA QUESTÃO-->
+    <string name="perguntaQuestao4">Quando foi assinada a Lei Áurea?</string>
+    <string name="opcao1Questao4">1881</string>
+    <string name="opcao2Questao4">1880</string>
+    <string name="opcao3Questao4">1888</string>
+    <string name="opcao4Questao4">1887</string>
+
+    <!--    QUINTA QUESTÃO-->
+    <string name="perguntaQuestao5">Qual a idade de Jesus?</string>
+    <string name="opcao1Questao5">2019</string>
+    <string name="opcao2Questao5">1880</string>
+    <string name="opcao3Questao5">2020</string>
+    <string name="opcao4Questao5">Só Deus Sabe</string>
+
+    <!--    RESULTADO-->
+    <string name="acertos">ACERTOS</string>
+</resources>
